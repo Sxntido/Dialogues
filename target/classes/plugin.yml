@@ -1,0 +1,10 @@
+name: Dialogues
+version: '1.0'
+main: team.aquatic.studios.Dialogues
+api-version: '1.20'
+authors: [Sxntido]
+description: All rights reserved by Aquatic Studios
+
+commands:
+  dialogues:
+    description: Dialogos de la Academia
