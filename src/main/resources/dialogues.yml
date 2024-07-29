@@ -125,7 +125,7 @@ dialogues:
       - "[MESSAGE] &r &r"
   final:
     depend:
-      dialogue: mago
+      dialogue: mage
       message: "&cNecesitas hablar con el mago para finalizar tu mision."
       sound: "ENTITY_PLAYER_LEVELUP"
     1:
