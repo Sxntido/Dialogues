@@ -1,6 +1,8 @@
 package team.aquatic.studios;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import team.aquatic.studios.commands.Executor;
+import team.aquatic.studios.tools.Files;
 
 public final class Dialogues extends JavaPlugin {
 
@@ -15,7 +17,7 @@ public final class Dialogues extends JavaPlugin {
         dialoguesConfig = new Files(this, "dialogues.yml");
         playerDataConfig = new Files(this, "playerdata.yml");
 
-        getCommand("dialogues").setExecutor(new ExecuteDialogues(this));
+        getCommand("dialogues").setExecutor(new Executor(this));
     }
 
     @Override

@@ -1,4 +1,4 @@
-package team.aquatic.studios;
+package team.aquatic.studios.tools;
 
 import org.bukkit.ChatColor;
 
